@@ -6,12 +6,12 @@ while True:
 
     while a>=0:
 
-        if a == 0:
-            if c == 0:
+        if a is 0:
+            if c is 0:
                 print("Belirsiz", "\n", "-------------------", sep="")
                 break
 
-        if c == 0:
+        if c is 0:
             if a != 0:
                 print("Tanımsız", "\n", "-------------------", sep="")
                 break
