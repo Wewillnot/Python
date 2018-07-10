@@ -5,8 +5,7 @@ while k > 0:
 
     a = int(input("Bir Sayi Giriniz:"))
     c = int(input("Kök'ün Derecesini Giriniz:"))
-    d = 1/c
 
-    b = float(a**d)
+    b = a ** (1/c)
 
     print("Sonuc:",b, "\n", "-------------------", sep="")
