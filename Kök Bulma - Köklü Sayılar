@@ -1,0 +1,12 @@
+k=1
+
+while k > 0:
+    print("Kök Bulma Programı")
+
+    a = int(input("Bir Sayi Giriniz:"))
+    c = int(input("Kök'ün Derecesini Giriniz:"))
+    d = 1/c
+
+    b = float(a**d)
+
+    print("Sonuc:",b, "\n", "-------------------", sep="")
