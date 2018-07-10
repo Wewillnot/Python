@@ -6,6 +6,10 @@ while k > 0:
     a = int(input("Bir Sayi Giriniz:"))
     c = int(input("Kök'ün Derecesini Giriniz:"))
 
-    b = a ** (1/c)
+    if c == 0:
+        print("Tanımsız","\n", "-------------------", sep="")
 
-    print("Sonuc:",b, "\n", "-------------------", sep="")
+    else:
+        b = a ** (1/c)
+
+        print("Sonuc:",b, "\n", "-------------------", sep="")
