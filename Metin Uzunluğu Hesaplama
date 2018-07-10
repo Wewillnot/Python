@@ -1,0 +1,14 @@
+k=1
+
+while k > 0:
+    print("Metin Uzunluğu Ölçme Programı")
+
+    met = input("Metni Giriniz:")
+    ek = input("\nBoşluklar dahil edilsin mi ? Evet için e harfini, Hayır için h harfini giriniz:")
+
+    if ek == "h" :
+        son = len(met) - met.count(" ")
+        print("Sonuç:",son,"\n", "---------------",sep="")
+
+    if ek == "e":
+        print("Sonuç:",len(met),"\n", "---------------",sep="")
