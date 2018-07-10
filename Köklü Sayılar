@@ -1,9 +1,0 @@
-print("Kök Bulma Programı")
-
-a = int(input("Bir Sayı Giriniz"))
-c = int(input("Kök'ün derecesini giriniz"))
-d = 1/c
-
-b = float(a**d)
-
-print(b)
