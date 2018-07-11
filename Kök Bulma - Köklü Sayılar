@@ -1,5 +1,5 @@
 while True:
-    print("Kök Bulma Programı\n ---------------")
+    print("Kök Bulma Programı",  "\n", "-------------------", sep="")
 
     a = int(input("Bir Tam Sayi Giriniz:" ))
     c = int(input("Kök'ün Derecesini Giriniz:"))
