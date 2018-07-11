@@ -8,12 +8,12 @@ while True:
 
         if a is 0:
             if c is 0:
-                print("Belirsiz", "\n", "-------------------", sep="")
+                print("Sonuc:","Belirsiz", "\n", "-------------------", sep="")
                 break
 
         if c is 0:
             if a != 0:
-                print("Tanımsız", "\n", "-------------------", sep="")
+                print("Sonuc:","Tanımsız", "\n", "-------------------", sep="")
                 break
 
 
