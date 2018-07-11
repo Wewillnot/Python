@@ -23,4 +23,4 @@ while True:
             break
 
     else:
-        print("Lütfen Kök İçindeki Sayıya0 Sıfırdan Büyük Bir Değer Giriniz")
+        print("Lütfen Kök İçindeki Sayıya Sıfırdan Büyük Bir Değer Giriniz")
