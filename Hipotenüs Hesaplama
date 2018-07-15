@@ -1,0 +1,6 @@
+while True:
+  a = int(input("Bir Kenarın Ölçüsünü Giriniz:"))
+  b = int(input("Diğer Kenarın Ölçüsünü Giriniz:"))
+  son = (a**2 + b**2) ** 0.5
+
+  print("Hipotenüs:{}".format(son), "\n","-----------------------------", sep="")
