@@ -1,0 +1,39 @@
+while True:
+  print("------------------------------------")
+  vize1 = int(input("Vize-1 Sonucunu Giriniz:"))
+  vize2 = int(input("Vize-2 Sonucunu Giriniz:"))
+  final = int(input("Final Sonucunu Giriniz:"))
+  son = (vize1*0.3) + (vize2*0.3) + (final*0.4)
+
+  if (vize1 or vize2 or final or son) < 0:
+    print("Hatalı Giriş")
+
+  if (vize1 or vize2 or final or son) > 100:
+    print("Hatalı Giriş")
+
+  elif son >= 90:
+    print("Ortalama:",son,"\n","AA",sep="")
+
+  elif son >= 85:
+    print("Ortalama:",son,"\n","BA",sep="")
+
+  elif son >= 80:
+    print("Ortalama:",son,"\n","BB",sep="")
+
+  elif son >= 75:
+    print("Ortalama:",son,"\n","CB",sep="")
+
+  elif son >= 70:
+    print("Ortalama:",son,"\n","CC",sep="")
+
+  elif son >= 65:
+    print("Ortalama:",son,"\n","DC",sep="")
+
+  elif son >= 60:
+    print("Ortalama:",son,"\n","DD",sep="")
+
+  elif son >= 55:
+    print("Ortalama:",son,"\n","FD",sep="")
+
+  elif son < 55:
+    print("Ortalama:",son,"\n","FF",sep="")
