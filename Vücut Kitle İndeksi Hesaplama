@@ -9,17 +9,17 @@ while True:
     print("Vücut Kitle İndeksiniz:",int(vki))
     print("Durumunuz:Zayıf","\n","--------------------------",sep="")
 
-  if 18.5 < vki <=24.9:
+  elif 18.5 < vki <=24.9:
     print("--------------------------\nSonuç:")
     print("Vücut Kitle İndeksiniz:",int(vki))
     print("Durumunuz:Normal","\n","--------------------------",sep="")
 
-  if 24.9 < vki <=29.9:
+  elif 24.9 < vki <=29.9:
     print("--------------------------\nSonuç:")
     print("Vücut Kitle İndeksiniz:",int(vki))
     print("Durumunuz:Fazla Kilolu","\n","--------------------------",sep="")
 
-  if 29.9 < vki >=40:
+  elif 29.9 < vki >=40:
     print("--------------------------\nSonuç:")
     print("Vücut Kitle İndeksiniz:",int(vki))
     print("Durumunuz:Obez","\n","--------------------------",sep="")
