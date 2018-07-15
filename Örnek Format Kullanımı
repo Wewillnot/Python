@@ -1,0 +1,7 @@
+while True:
+  a = int(input("Bir sayı giriniz:"))
+  b = int(input("Bir sayı giriniz:"))
+  c = int(input("Bir sayı giriniz:"))
+  d = a*b*c
+
+  print("Sonuç:{}".format(d),"\n","----------------", sep="")
