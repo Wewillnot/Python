@@ -1,0 +1,34 @@
+while True:
+  sr = int(input("1-)Üçgenin Tipi\n2-)Dörtgenin Tipi\nİslem:"))
+
+  if sr == 1:
+    a = int(input("Birinci kenarın uzunluğunu giriniz:"))
+    b = int(input("İkinci kenarın uzunluğunu giriniz:"))
+    c = int(input("Üçüncü kenarın uzunluğunu giriniz"))
+
+    if (abs(a-b) < abs(c) < abs(a+b))!=True or (abs(b-c) < abs(a) < abs(b+c))!=True or (abs(a-c) < abs(b) < abs(a+c))!=True :
+      print("Girdiğiniz Değerler İle Üçgen Oluşmamaktadır")
+
+    elif a==b==c:
+      print("Eşkenar Üçgen")
+
+    elif (a==b) or (b==c) or (a==c):
+      print("İkizkenar Üçgen")
+    
+    else:
+      print("Özel Bir Üçgen Değildir")
+
+  elif sr == 2:
+    d = int(input("Birinci kenarın uzunluğunu giriniz:"))
+    e = int(input("İkinci kenarın uzunluğunu giriniz:"))
+    g = int(input("Üçüncü kenarın uzunluğunu giriniz"))
+    f = int(input("Dördüncü kenarın uzunluğunu giriniz"))
+
+    if d==e==g==f:
+      print("Kare")
+    
+    elif (d==e and g==f) or (e==g and d==f):
+      print("Dikdörtgen")
+
+    else:
+      print("Özel bir dörtgen değildir")
