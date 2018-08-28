@@ -1,6 +1,6 @@
 import math
 import time
-import mükemmelsayi
+import mükemmelsayi # mükemmelsayi modülünü ekliyoruz.
 
 while True:
     gir = input("""
