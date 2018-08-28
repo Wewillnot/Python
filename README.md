@@ -1,4 +1,4 @@
-# H1 Basit  Python 3 Projeleri
+# Basit  Python 3 Projeleri
 
 [Hesap Makinesi - Fonksiyonlar](https://github.com/Wewillnot/Python/tree/master/Hesap%20Makinesi%20-%20Fonksiyonlar)
 
